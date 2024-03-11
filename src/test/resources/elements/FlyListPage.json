@@ -1,0 +1,77 @@
+[
+  {
+    "key": "flyListLeftDepartureTimeCard",
+    "value": "//span[text()=\"Gidiş kalkış / varış saatleri\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "flyListDepartureTimeSliderBar",
+    "value": "[data-testid=\"departureDepartureTimeSlider\"]",
+    "type": "css"
+  },
+  {
+    "key": "flyListLeftDepartureTimeSlider",
+    "value": "[class=\"rc-slider-handle rc-slider-handle-1\"]",
+    "type": "css"
+  },
+  {
+    "key": "flyListRightDepartureTimeSlider",
+    "value": "[class=\"rc-slider-handle rc-slider-handle-2\"]",
+    "type": "css"
+  },
+  {
+    "key": "flyListDepartureTimeSliderContent",
+    "value": "//div[@class=\"filter-slider-content\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "flyListFlightListInfoPrice",
+    "value": "//div[@data-testid=\"flightInfoPrice\"]/span[@class=\"money-int\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "flyListAirlineThy",
+    "value": "//div[@data-testid=\"Türk Hava Yolları\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "flyListAirlineCard",
+    "value": "//span[@class=\"card-title\" and text()=\"Havayolları\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "flyListAirlineCardSelectOnlyThy",
+    "value": "//input[@id=\"TKairlines\"]/following-sibling::span[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "flyListAirlineCheckBoxActive",
+    "value": "label>span[class=\"checkbox checkbox--active\"]",
+    "type": "css"
+  },
+  {
+    "key": "flyListAirlineThyListCount",
+    "value": "//span[text()=\"Türk Hava Yolları\"]/following-sibling::span[@class=\"ml-1\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "flyListEditSearchTxt",
+    "value": "(//span[text()=\"Aramayı Düzenle\"])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "flyListSearchInfoTxt",
+    "value": "(//div[@class=\"info\"]//strong[@class=\"graphic-strong\"])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "flyListSearchEditDepartureDate",
+    "value": "span[data-testid=\"searchEdit__header-departureDate\"]",
+    "type": "css"
+  },
+  {
+    "key": "flyListSearchEditReturnDate",
+    "value": "span[data-testid=\"searchEdit__header-returnDate\"]",
+    "type": "css"
+  }
+]

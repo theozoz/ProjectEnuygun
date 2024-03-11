@@ -1,0 +1,92 @@
+Created by ozcan.arpaci on 3/9/2024
+
+This is a concept file with following syntax for each concept.
+
+# One trust kabul edilir
+* "oneTrustAcceptBtn" elementine tıklanır
+
+# Ana sayfa görüntülenir
+* Sayfa "https://www.enuygun.com/" adresine gidilir
+* "anasayfaHeaderTxt" Elementin görünür olduğu kontrol edilir
+
+# Bilet tipi olarak uçak seçili olduğu kontrol edilir
+* "anasayfaUcakBiletiSeciliBtn" Elementin görünür olduğu kontrol edilir
+
+# Kalkış noktası için <kalkisYeri> havaalanı seçilir
+* "anasayfaKalkisTxt" elementine tıklanır
+* "anasayfaKalkisTxt" elementin text değeri temizlenir
+* "anasayfaKalkisTxt" elementine <kalkisYeri> değeri yazılır
+* "1" saniye beklenir
+* "anasayfaKalkisListesiIlkEleman" elementine tıklanır
+
+
+# Varış noktası için <varisYeri> havaalanı seçilir
+* "anasayfaVaris" elementine tıklanır
+* "anasayfaVaris" elementin text değeri temizlenir
+* "anasayfaVaris" elementine <varisYeri> değeri yazılır
+* "1" saniye beklenir
+* "anasayfaKalVaristesiIlkEleman" elementine tıklanır
+
+
+# Seyahat tipi için gidiş-dönüş seçilir
+* "anasayfagidisDonus" elementine tıklanır
+
+# Gidiş tarihi olarak <gidisTarihi> seçilir
+* "anasayfagidisTarihi" elementine tıklanır
+* Takvimden "anasayfaGidisSonrakiTarihBtn" belirtilen tarih <gidisTarihi> seçilir
+* Text <gidisTarihi> değeri "departureDateStoreKey" StoreKey değeri olarak kaydedilir
+
+# Gönüş tarihi olarak <donusTarihi> seçilir
+* "anasayfaDonusTarihi" elementine tıklanır
+* Takvimden "anasayfaDonusSonrakiTarihBtn" belirtilen tarih <donusTarihi> seçilir
+* Text <donusTarihi> değeri "returnDateStoreKey" StoreKey değeri olarak kaydedilir
+
+
+# Seyahat araması yapılır
+* "anasayfaUcusAraBtn" elementine tıklanır
+
+# Uçuşların kalkış saatleri 10:00 ile 18:00 arası olarak ayarlanır
+* "flyListLeftDepartureTimeCard" elementine tıklanır
+* "flyListDepartureTimeSliderBar" Kalkış saati barının "flyListLeftDepartureTimeSlider" çubuğunu saat "10" olarak ayarlanır
+* "flyListDepartureTimeSliderBar" Kalkış saati barının "flyListRightDepartureTimeSlider" çubuğunu saat "-18" olarak ayarlanır
+
+# Uçuşların kalkış saatlerinin 10:00 ile 18:00 arasında olduğu kontrol edilir
+* "flyListDepartureTimeSliderContent" elementinin "10:00 ile 18:00 arası" değerini içerdiği kontrol edilir
+
+# Uçuş firması olarak <airline> seçilir
+* "flyListAirlineCard" elementine tıklanır
+* Element "flyListAirlineCard" üzerine scroll edilir
+* "1" saniye beklenir
+* "flyListAirlineCardSelectOnlyThy" elementine tıklanır
+* "flyListAirlineCheckBoxActive" Elementin görünür olduğu kontrol edilir
+* "1" saniye beklenir
+* Element listesinin "flyListAirlineThy" text değeri <airline> değerini içerdiği kontrol edilir
+
+# Uçuşların fiyatlarının artan şekilde sıralandığı kontrol edilir
+* Element listesinin "flyListFlightListInfoPrice" text değeri artan şekilde sıralandığı kontrol edilir
+
+# Turk hava yolları sayısı ile uçuşların sayısı eşit olduğu kontrol edilir
+* Element "flyListFlightListInfoPrice" listesi elementin "flyListAirlineThyListCount" sayısı ile eşleştiği kontrol edilir
+
+# Arama detay sayfasında <kalkisYeri> kalkış <varisYeri> varış yeri ve gidiş <departureDateStoreKey> donuş <returnDateStoreKey> tarihi bilgilerinin doğru görüntülendiği kontrol edilir
+* "1" saniye beklenir
+* "flyListSearchInfoTxt" elementinin <kalkisYeri> değerini içerdiği kontrol edilir
+* "flyListSearchInfoTxt" elementinin <varisYeri> değerini içerdiği kontrol edilir
+* Element "flyListSearchEditDepartureDate" text değeri <departureDateStoreKey> StoreKey değerini içerdiği kontrol edilir
+* Element "flyListSearchEditReturnDate" text değeri <returnDateStoreKey> StoreKey değerini içerdiği kontrol edilir
+
+
+# Login modalı açılır
+* "homePageLoginModalBtn" elementine tıklanır
+
+# Eposta alanın <email> değeri girilir
+* "homePageLoginModalEmailTxt" elementine <email> değeri yazılır
+
+# Şifre alanın <password> değeri girilir
+* "homePageLoginModalPasswordTxt" elementine <password> değeri yazılır
+
+# Giriş Yap butonuna tıklanır
+* "homePageLoginModalLoginBtn" elementine tıklanır
+
+# Başarılı giriş yapıldığı kontrolü yapılır
+* "homePageLoggedinUserName" elementinin "enuyguntest" değerini içerdiği kontrol edilir

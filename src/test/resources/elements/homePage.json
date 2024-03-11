@@ -1,0 +1,97 @@
+[
+  {
+    "key": "oneTrustAcceptBtn",
+    "value": "onetrust-accept-btn-handler",
+    "type": "id"
+  },
+  {
+    "key": "anasayfaHeaderTxt",
+    "value": "//h1[text()=\"Türkiye’nin Seyahat Sitesi\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfaUcakBiletiSeciliBtn",
+    "value": "//button[@aria-selected=\"true\"]//span[text()=\"Uçak bileti\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfaKalkisTxt",
+    "value": "origin",
+    "type": "name"
+  },
+  {
+    "key": "anasayfaVaris",
+    "value": "destination",
+    "type": "name"
+  },
+  {
+    "key": "anasayfaKalkisListesiIlkEleman",
+    "value": "//li[@data-testid=\"endesign-flight-origin-autosuggestion-option-item-0\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfaKalVaristesiIlkEleman",
+    "value": "//li[@data-testid=\"endesign-flight-destination-autosuggestion-option-item-0\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfagidisDonus",
+    "value": "//div[text()=\"Gidiş-dönüş\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfagidisTarihi",
+    "value": "//input[@data-testid=\"enuygun-homepage-flight-departureDate-datepicker-input\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfaDonusTarihi",
+    "value": "//input[@data-testid=\"enuygun-homepage-flight-returnDate-datepicker-input\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfaUcusAraBtn",
+    "value": "button[data-testid=\"enuygun-homepage-flight-submitButton\"]",
+    "type": "css"
+  },
+  {
+    "key": "anasayfaGidisSonrakiTarihBtn",
+    "value": "//button[@data-testid=\"enuygun-homepage-flight-departureDate-month-forward-button\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "anasayfaDonusSonrakiTarihBtn",
+    "value": "//button[@data-testid=\"enuygun-homepage-flight-returnDate-month-forward-button\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "homePageLoginModalBtn",
+    "value": "//span[text()=\"Giriş yap\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "homePageLoginModalemailTxt",
+    "value": "input[data-testid=\"membership-signin-email-input\"]",
+    "type": "css"
+  },
+  {
+    "key": "homePageLoginModalEmailTxt",
+    "value": "input[data-testid=\"membership-signin-email-input\"]",
+    "type": "css"
+  },
+  {
+    "key": "homePageLoginModalPasswordTxt",
+    "value": "input[data-testid=\"membership-signin-password-input\"]",
+    "type": "css"
+  },
+  {
+    "key": "homePageLoginModalLoginBtn",
+    "value": "button[data-testid=\"membership-signin-submit-button\"]",
+    "type": "css"
+  },
+  {
+    "key": "homePageLoggedinUserName",
+    "value": "span[data-testid=\"loggedin-state-name\"]",
+    "type": "css"
+  }
+]

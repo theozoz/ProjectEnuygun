@@ -1,0 +1,52 @@
+# Proje Adı
+
+## Proje Tanımı
+
+Bu proje, Enuygun iş görüşmesi dahilinde verilen ödev neticesi için geliştirilen bir test otomasyon projesidir.
+İçerisinde Gauge, Selenium, Maven, Java, Junit gibi teknolojileri barındırmaktadır.
+Proje içerisinde Enuygun web sitesi üzerindeki bazı senaryoların test otomasyonları bulunmaktadır.
+Gerekli kurulumlar ve çalıştırma adımları aşağıda belirtilmiştir.
+
+## Gereksinimler
+
+- Java [sürüm]: 17
+- Maven [sürüm]: 3.8.6
+- Gauge [sürüm]: 1.4.3
+
+## Kurulum
+
+1. Projeyi bilgisayarınıza klonlayın: `git clone [proje-linki.git]`
+2. IntelliJ IDEA veya tercih ettiğiniz bir IDE'yi açın.
+3. Proje dizinine gidin ve IDE'de projeyi açın.
+
+## Gauge Windows Kurulumu
+1. Gauge'ın son sürümünü indirin: https://gauge.org/get-started/
+2. İndirilen dosyayı açın ve kurulumu tamamlayın.
+3. Setup dosyasını kurduktan sonra Ortam Değişkenlerinin açın.
+4. Sistem değişkenleri modülünde path olarak bilgisayarınızdaki gauge yolunu “C:\Program Files\Gauge”  ekleyin
+5. Sistem Değişkenleri alanına  GAUGE_HOME değişkenini girin  bilgisayarınızdaki gauge dosya yolunu “C:\Program Files\Gauge” değer olarak atayın.
+6. Terminalde `gauge -v` komutunu çalıştırarak kurulumun başarılı olup olmadığını kontrol edebilirsiniz.
+
+# Gauge kurulum paketleri
+gauge install java
+gauge install flash
+gauge install html-report
+gauge install json-report
+gauge install screenshot
+gauge install spectacle
+gauge install xml-report
+
+
+
+## Testler
+1. Testleri çalıştırmak için Spec doslarındaki spek sayfalarını veya senaryoları çalıştırabilirsiniz.
+2. Testleri çalıştırmak için terminalde `mvn gauge:execute` komutunu çalıştırabilirsiniz.
+3. Dahada özelleştirilmiş bir şekilde testleri çalıştırmak için `mvn gauge:execute -DspecsDir=[spec-dosya-yolu]` komutunu çalıştırabilirsiniz.
+3. Daha fazlasını gauge web sitesinden öğrenebilirsiniz. https://gauge.org/
+
+
+
+## İletişim
+
+- ozcanarpaci25@gmail.com
+
