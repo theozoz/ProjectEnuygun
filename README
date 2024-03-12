@@ -44,7 +44,9 @@ gauge install xml-report
 3. Dahada özelleştirilmiş bir şekilde testleri çalıştırmak için `mvn gauge:execute -DspecsDir=[spec-dosya-yolu]` komutunu çalıştırabilirsiniz.
 3. Daha fazlasını gauge web sitesinden öğrenebilirsiniz. https://gauge.org/
 
-
+## Raporlama
+1. Test koşumları sonrasında Gauge çok güzel ve anlaşlışabilir bir html sayfası olarak raporlamayı sunuyor.
+2. Profesyonel projelerde rapor özelleştirilebilir.
 
 ## İletişim
 
